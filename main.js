@@ -36,7 +36,6 @@ function getTotalPrice() {
   if (price.value != "") {
     let netPrice = +price.value + +taxes.value + +ads.value - +discount.value;
     total.value = netPrice;
-    // total.style.backgroundColor = "blue";
     total.style.color = "red";
   } else {
     total.value = "";
