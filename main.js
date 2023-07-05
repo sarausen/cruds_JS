@@ -33,7 +33,6 @@ console.log(submit);
 
 // 2- get total price
 function getTotalPrice() {
-  //   console.log("test total");
   if (price.value != "") {
     let netPrice = +price.value + +taxes.value + +ads.value - +discount.value;
     total.value = netPrice;
